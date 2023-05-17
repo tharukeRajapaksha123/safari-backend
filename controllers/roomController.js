@@ -14,7 +14,7 @@ exports.create = (req, res) => {
         price: req.body.price,
         num_of_beds: req.body.num_of_beds,
         description: req.body.description,
-        available: room.available,
+       
     });
 
     room.save()
